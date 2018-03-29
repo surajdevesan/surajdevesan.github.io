@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-29T15:00:25+05:30</updated><id>http://localhost:4000/</id><title type="html">Blog</title><subtitle>This is a just a blog for sharing my experience with different technology</subtitle><entry><title type="html">Getting Started with a blog</title><link href="http://localhost:4000/blog/2018/03/29/Getting-Started.html" rel="alternate" type="text/html" title="Getting Started with a blog" /><published>2018-03-29T12:17:22+05:30</published><updated>2018-03-29T12:17:22+05:30</updated><id>http://localhost:4000/blog/2018/03/29/Getting-Started</id><content type="html" xml:base="http://localhost:4000/blog/2018/03/29/Getting-Started.html">&lt;p&gt;Over the years i had experimented with a lot of technologies which were never documented anywhere nor shared anywhere. As time flew i even forgot the basic of these technologies.So this is a place for me to document the technologies i try out. Since this is my first attempt in writting blogs please do excuse the naive mistakes i am bound to produce&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-29T17:44:08+05:30</updated><id>http://localhost:4000/</id><title type="html">Blog</title><subtitle>This is a just a blog for sharing my experience with different technology</subtitle><entry><title type="html">Getting Started with a blog</title><link href="http://localhost:4000/blog/2018/03/29/Getting-Started.html" rel="alternate" type="text/html" title="Getting Started with a blog" /><published>2018-03-29T12:17:22+05:30</published><updated>2018-03-29T12:17:22+05:30</updated><id>http://localhost:4000/blog/2018/03/29/Getting-Started</id><content type="html" xml:base="http://localhost:4000/blog/2018/03/29/Getting-Started.html">&lt;p&gt;Over the years I had experimented with a lot of technologies which were never documented anywhere nor shared anywhere. As time flew I even forgot the basic of these technologies.So this is a place for me to document the technologies I try out. Since this is my first attempt in writting blogs please do excuse the naive mistakes I am bound to produce&lt;/p&gt;
 
 &lt;h2 id=&quot;road-to-jekyll&quot;&gt;Road to Jekyll&lt;/h2&gt;
 
-&lt;p&gt;So, as I came to the decision of making blogs, now the question was how the hell do I make a blog and wondering about it bought a thought to my mind my mind why not just use Github pages to host the site.&lt;/p&gt;
+&lt;p&gt;So, as I came to the decision of making blogs, now the question was how the hell do I make a blog and wondering about it bought a thought to my mind why not just use Github pages to host the site.&lt;/p&gt;
 
 &lt;p&gt;I was introduced to Github pages during my college days. Then I had no clue that Github could be used to host static pages. One of my classmates showed me that such a marvel is possible. Idea was soo simple and truly amazing.&lt;/p&gt;
 
-&lt;p&gt;To host in Github.io i first had to get clear with the idea for that i started looking into https://guides.github.com/features/pages/. So now the next step was to put up a site where i could post with ease. One of my collegues here had already made me aware of Jekyll which provides the ease of posting which i was searching for and here I am posting my first post.&lt;/p&gt;
+&lt;p&gt;To host in Github.io I first had to get clear with the idea for that I started looking into https://guides.github.com/features/pages/. So now the next step was to put up a site where I could post with ease. One of my collegues here had already made me aware of Jekyll which provides the ease of posting which I was searching for and here I am posting my first post.&lt;/p&gt;
 
 &lt;h2 id=&quot;setting-up-jekyll&quot;&gt;Setting Up Jekyll&lt;/h2&gt;
 
@@ -16,15 +16,15 @@
   &lt;li&gt;RAM: 8GB&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;As jekyll needs ruby which i didn’t have in the system I began the steps for the installation from there&lt;/p&gt;
+&lt;p&gt;As jekyll needs ruby which I didn’t have in the system I began the steps for the installation from there&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;  &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;ruby-full
-  gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jekyll
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;  &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get install ruby-full
+  gem install jekyll
   jekyll new my-blog
   &lt;span class=&quot;c&quot;&gt;# Produced warning Could not load Bundler. Bundle install skipped.&lt;/span&gt;
-  &lt;span class=&quot;c&quot;&gt;# Then i realized we need something called bundler which i installed with the below commands&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;# Then I realized we need something called bundler which I installed with the below commands&lt;/span&gt;
   bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
-  gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;bundler
-  &lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-rf&lt;/span&gt; my-blog
+  gem install bundler
+  rm &lt;span class=&quot;nt&quot;&gt;-rf&lt;/span&gt; my-blog
   jekyll new my-blog
-  &lt;span class=&quot;c&quot;&gt;# That created the blog&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">Over the years i had experimented with a lot of technologies which were never documented anywhere nor shared anywhere. As time flew i even forgot the basic of these technologies.So this is a place for me to document the technologies i try out. Since this is my first attempt in writting blogs please do excuse the naive mistakes i am bound to produce</summary></entry></feed>
+  &lt;span class=&quot;c&quot;&gt;# That created the blog&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">Over the years I had experimented with a lot of technologies which were never documented anywhere nor shared anywhere. As time flew I even forgot the basic of these technologies.So this is a place for me to document the technologies I try out. Since this is my first attempt in writting blogs please do excuse the naive mistakes I am bound to produce</summary></entry></feed>
